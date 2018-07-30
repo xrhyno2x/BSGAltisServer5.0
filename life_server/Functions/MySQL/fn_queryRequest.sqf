@@ -170,7 +170,7 @@ switch (_side) do {
         } else {
             TON_fnc_playtime_values_request pushBack [_uid, _new];
         };
-        [_uid,_new select 1] call TON_fnc_setPlayTime;
+        [_uid,_new select 3] call TON_fnc_setPlayTime;
     };
 };
 
